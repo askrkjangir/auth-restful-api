@@ -23,33 +23,33 @@
 <h2>API</h2>
 <h5>1. Test api to check server is running or not</h5>
 <pre>
-  Method : GET<br>
-  API URL : http://localhost:3000/<br>
-  Parameters : None<br>
-  Request Header : None<br>
-  Response Status : 200 OK<br>
+  Method : GET
+  API URL : http://localhost:3000/
+  Parameters : None
+  Request Header : None
+  Response Status : 200 OK
   Response Content Type : application/json
   Response Body : { "message": "Express is up!" }
 </pre>
 <h5>2. Login api to validate user credentials</h5>
 <pre>
-  Method : POST<br>
-  API URL : http://localhost:3000/api/v1/login<br>
-  Request Params : None<br>
-  Request Body : email, password<br>
-  Request Header : Content-Type : application/x-www-form-urlencoded<br>
-  Response Status : 200 OK<br>
+  Method : POST
+  API URL : http://localhost:3000/api/v1/login
+  Request Params : None
+  Request Body : email, password
+  Request Header : Content-Type : application/x-www-form-urlencoded
+  Response Status : 200 OK
   Response Content Type : application/json
   Response Body : { "auth": true, "token": "jwt_api_access_token" }
 </pre>
 <h5>3. Profile api to access user details</h5>
 <pre>
   Method : GET<br>
-  API URL : http://localhost:3000/api/v1/profile<br>
-  Request Params : None<br>
-  Request Body : None<br>
-  Request Header : Authorization : Bearer jwt_api_access_token<br>
-  Response Status : 200 OK<br>
+  API URL : http://localhost:3000/api/v1/profile
+  Request Params : None
+  Request Body : None
+  Request Header : Authorization : Bearer jwt_api_access_token
+  Response Status : 200 OK
   Response Content Type : application/json
   Response Body : {"success":true,"user":{"id":1,"name":"Full Name","email":"test@test.com","role":1}}
 </pre>
