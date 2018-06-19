@@ -44,7 +44,7 @@
 </pre>
 <h5>3. Profile api to access user details</h5>
 <pre>
-  Method : GET<br>
+  Method : GET
   API URL : http://localhost:3000/api/v1/profile
   Request Params : None
   Request Body : None
