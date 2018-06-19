@@ -22,7 +22,7 @@
 <p>Test your application using web browser or Postman tool</p>
 <h2>API</h2>
 <h5>1. Test api to check server is running or not</h5>
-<p>
+<pre>
   Method : GET<br>
   API URL : http://localhost:3000/<br>
   Parameters : None<br>
@@ -30,9 +30,9 @@
   Response Status : 200 OK<br>
   Response Content Type : application/json
   Response Body : { "message": "Express is up!" }
-</p>
+</pre>
 <h5>2. Login api to validate user credentials</h5>
-<p>
+<pre>
   Method : POST<br>
   API URL : http://localhost:3000/api/v1/login<br>
   Request Params : None<br>
@@ -41,9 +41,9 @@
   Response Status : 200 OK<br>
   Response Content Type : application/json
   Response Body : { "auth": true, "token": "jwt_api_access_token" }
-</p>
+</pre>
 <h5>3. Profile api to access user details</h5>
-<p>
+<pre>
   Method : GET<br>
   API URL : http://localhost:3000/api/v1/profile<br>
   Request Params : None<br>
@@ -52,4 +52,4 @@
   Response Status : 200 OK<br>
   Response Content Type : application/json
   Response Body : {"success":true,"user":{"id":1,"name":"Full Name","email":"test@test.com","role":1}}
-</p>
+</pre>
