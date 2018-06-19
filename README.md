@@ -20,7 +20,7 @@
 <pre>node app.js</pre>
 <h2>Test</h2>
 <p>Test your application using web browser or Postman tool</p>
-<h2>API</h2>
+<h2>Available APIs</h2>
 <h5>1. Test api to check server is running or not</h5>
 <pre>
   Method : GET
